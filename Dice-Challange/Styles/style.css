@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(120deg, #4338db, #2db4d5);
+}
+.container {
+    text-align: center;
+}
+.container #result-text {
+    padding: 6% 0;
+    font-size: 10vh;
+    color: #FFD93D;
+}
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16rem;
+}
+.player h3{
+  color: #FFD93D;
+  font-size: 2rem;
+}
+.diceimage{
+  margin-top: 2rem;
+}
+footer > p {
+  text-align: center;
+  margin-top: 10rem;
+  color: white;
+}
